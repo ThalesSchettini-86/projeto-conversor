@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de temperaturas</title>
+    <link rel="icon" href="imagens/thermo (1).png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <p id="nome">Conversor de temperatura</p> <br>
+        
+        <div>
+            <form>
+                <!--Criação de form com radiobuttons
+                para cada conversão-->
+                <input type="number" id="temp"> <br>
+                <br>
+
+                <input type="radio" id="CF" name="radio">
+                <label for="CF">°C -> °F</label> <br>
+
+                <input type="radio" id="CK" name="radio">
+                <label for="CK">°C -> °K</label> <br>
+
+                <input type="radio" id="FC" name="radio">
+                <label for="FC">°F -> °C</label> <br>
+
+                <input type="radio" id="FK" name="radio">
+                <label for="FK">°F -> °K</label> <br>
+
+                <input type="radio" id="KC" name="radio">
+                <label for="KC">°K -> °C</label> <br>
+
+                <input type="radio" id="KF" name="radio">
+                <label for="KF">°K -> °F</label> <br>
+
+                <input type="radio" id="KFC" name="radio">
+                <label for="KFC">°C, °F & °K</label>
+            </form>
+        </div>
+        <br>
+        <button type="button" id="calcula">Calcular</button>
+        <br>
+        <div id="resultado">
+            <!--Criação de parágrafos para mostrar
+            os resultados-->
+            <p id="res" class="res"></p>
+            <p id="res2" class="res"></p>
+            <p id="res3" class="res"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
