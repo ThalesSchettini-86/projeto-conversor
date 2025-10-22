@@ -1,17 +1,17 @@
 /*Adição de fontes remotas salvas especialmente para o projeto*/
 @font-face {
     font-family: One;
-    src: url(fontes/EmblemaOne-Regular.ttf);
+    src: url(assets/fontes/EmblemaOne-Regular.ttf);
 }
 
 @font-face {
     font-family: Orbitron;
-    src: url(fontes/Orbitron-VariableFont_wght.ttf);
+    src: url(assets/fontes/Orbitron-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: School;
-    src: url(fontes/Schoolbell-Regular.ttf);
+    src: url(assets/fontes/Schoolbell-Regular.ttf);
 }
 
 /*Adição de detalhes a fim de melhorar o design do site*/
