@@ -154,3 +154,85 @@ A temperature conversion front-end focused web project (Celsius <-> Fahrenheit <
 ## VII - License
 
 This project is under the MIT license. See the LICENSE file for more details.
+
+---
+---
+
+(DE)
+
+# Temperaturkonverter
+
+Ein front-end Webprojekt mit Schwerpunkt auf Temperatur konvertierung (Celsius <-> Fahrenheit <-> Kelvin). Beinhaltet flüßige Animationen, Mikrointeraktionen und ein visuelles Feedback für das Ergebnis, sowie eine dunklere Farbpallete um die Seitenvisualisierung bequemer zu machen.
+
+---
+
+## I - Verwendete Technologien
+
+- HTML5 (Um die Seitenstruktur anzulegen)
+- CSS3 (Um Animationen, Hovereffekte und Gradienten hinzuzufügen,und so das Seitendesign zu verfeinern)
+- JavaScript (Um Interaktivität zu der Seite hinzuzufügen und Berechnungen der Konvertierung durchzuführen)
+
+---
+
+## II - Funktionalitäten
+
+- Konvertierung zwischen Celsius, Fahrenheit und Kelvin
+- Displaybereich für das Ergebnis mit fade-in Animationen
+- Containerkante mit Rot -> Violett -> Blau Gradient
+- Hovereffekte auf Knöpfe und Beschriftungen.
+- Inputs mit stilvollem Fokus (leichtes Glassmorphismus).
+- Visual feedback to the selected button/label.
+- Visuelles Feedback zum/zur ausgewählten Knopf/Beschriftung
+
+---
+
+## III - Darstellung
+
+![Screenshot](/assets/screenshots/screenshot_antes.png)
+
+![Screenshot](/assets/screenshots/screenshot_depois.png)
+
+---
+
+## IV - Wie man es lokal ausführt
+
+- IV.a: Repository klonen
+- IV.b: index.html Datei in Ihrem Webbrowser öffnen
+- IV.c: Insert the temperature in the number input, select the conversion method and click on the "Calculate" button.
+- Die Temperatur in der Nummereingabe hinzufügen, die Konvertierungsmethode auswählen un auf den "Berechnen" Knopf klicken
+
+---
+
+## V - Dateistruktur
+
+/projeto-conversor
+|
+|-- index.html
+|-- style.css
+|-- script.js
+|-- README.md
+|_ /assets
+  |-- /fontes
+  |   |-- EmblemaOne-Regular.ttf
+  |   |-- Orbitron-VariableFont_wght.ttf
+  |   |_ Schoolbell-Regular.ttf
+  |-- /imagens
+  |   |_ thermo (1).png
+  |_ /screenshots
+      |-- screenshot_antes.png
+      |_ screenshot_depois.png
+
+---
+
+## VI - Stil und Personalisierung
+
+- Dunkelmarineblauer Hintergrund (#0c1124)
+- Containerkanten mit Gradienten (Rot -> Violett -> Blau)
+- Stilvolle Inputs und Beschriftungen mit Farben, der mit dem dunkleren Thema der Seiter harmonieren
+- Mikrointeraktionen und Animationen auf Knöpfe und Beschriftungen
+
+---
+
+## VII - Lizenz
+
+Dieses projekt steht under der MIT-Lizenz. Weitere Details finden Sie in der LICENSE Datei.
