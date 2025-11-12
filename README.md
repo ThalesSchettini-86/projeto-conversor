@@ -198,9 +198,8 @@ Ein front-end Webprojekt mit Schwerpunkt auf Temperatur konvertierung (Celsius <
 
 - IV.a: Repository klonen
 - IV.b: index.html Datei in Ihrem Webbrowser öffnen
-- IV.c: Insert the temperature in the number input, select the conversion method and click on the "Calculate" button.
-- Die Temperatur in der Nummereingabe hinzufügen, die Konvertierungsmethode auswählen un auf den "Berechnen" Knopf klicken
-
+- IV.c: Die Temperatur in der Nummereingabe hinzufügen, die Konvertierungsmethode auswählen un auf den "Berechnen" Knopf klicken
+  
 ---
 
 ## V - Dateistruktur
